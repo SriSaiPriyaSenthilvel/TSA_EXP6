@@ -6,7 +6,7 @@
 
 
 ### AIM:
-To apply the Holt-Winters Method for time series forecasting on sales data, decompose the series, fit the model, and make future predictions while evaluating model accuracy.
+To apply the Holt-Winters Method for time series forecasting on power consumption dataset, decompose the series, fit the model, and make future predictions while evaluating model accuracy.
 
 ### ALGORITHM:
 1. You import the necessary libraries
@@ -19,7 +19,7 @@ datetime, and perform some initial data exploration
 7. You calculate the root mean squared error (RMSE) to evaluate the model's performance
 8. You calculate the mean and standard deviation of the entire sales dataset, then fit a Holt-
 Winters model to the entire dataset and make future predictions
-9. You plot the original sales data and the predictions
+9. You plot the original powerconsumption data and the predictions
 ### PROGRAM:
 ```
 # Importing necessary libraries
@@ -99,10 +99,14 @@ plt.grid(True)
 ```
 
 ### OUTPUT:
+ORIGINAL POWER CONSUMPTION DATA:
+
+![image](https://github.com/user-attachments/assets/4a6512f6-a62d-49fa-9e4c-da73a82e4d6f)
+
 
 TEST_PREDICTION AND FINAL_PREDICTION:
 
-![image](https://github.com/user-attachments/assets/a93c2cf2-c05e-4fdc-bd1c-c57519ddf743)
+![image](https://github.com/user-attachments/assets/edb4bab7-ba58-47bd-a7d7-d37a7daaf4e6)
 
 
 ### RESULT:
